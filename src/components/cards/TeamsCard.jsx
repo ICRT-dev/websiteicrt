@@ -7,7 +7,7 @@ const TeamsCard = (props) => {
             <div className="bg-white items-center justify-between w-64 mx-5 rounded-xl pb-3" width="350px">
                 <img
                     src="https://mdbootstrap.com/img/new/standard/city/031.jpg"
-                    className="rounded-xl shadow-xl mb-4"
+                    className="rounded-xl mb-4"
                     alt=""
                     width="360px"
                     align="center"

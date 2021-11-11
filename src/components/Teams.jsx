@@ -4,7 +4,7 @@ import TeamsCard from "./cards/TeamsCard";
 const Teams = () => {
     return (
         <div className="bg-gray-300">
-            <div className="mx-16 py-20 flex flex-row">
+            <div className="mx-16 py-20 flex flex-row items-center justify-between">
                 <TeamsCard name="Al-Fatih Team" />
                 <TeamsCard name="Al-Khawarismi Team" />
                 <TeamsCard name="Heroes Team" />
