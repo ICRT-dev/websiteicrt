@@ -14,10 +14,10 @@ export default function IndexDropdown() {
                             dark:hover:text-blue-400
                             md:mx-4 md:my-0 duration-300 border-b-4 py-4 border-transparent hover:border-blue-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
             About
-            {/* <ChevronDownIcon
-              className="w-5 h-5 ml-2 -mr-1 text-violet-200 hover:text-violet-100"
+            <ChevronDownIcon
+              className="w-5 h-5 ml-2 -mr-1 mt-1 text-violet-200 hover:text-violet-100"
               aria-hidden="true"
-            /> */}
+            />
           </Menu.Button>
         </div>
         <Transition

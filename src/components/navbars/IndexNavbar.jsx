@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/img/logo.png"
+import logo from "../../assets/img/logo2.png"
 import IndexDropdown from "../dropdowns/IndexDropdown";
 
 const IndexNavbar = () => {
@@ -57,6 +57,18 @@ const IndexNavbar = () => {
                         "
                         href="#"
                         >Project</a
+                        >
+                        <a
+                        className="
+                            my-1 font-bold
+                            text-gray-700
+                            dark:text-gray-200
+                            hover:text-blue-500
+                            dark:hover:text-blue-400
+                            md:mx-4 md:my-0 duration-300 border-b-4 py-4 border-transparent hover:border-blue-500
+                        "
+                        href="#"
+                        >Achievement</a
                         >
                         <a
                         className="
