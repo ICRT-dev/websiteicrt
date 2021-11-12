@@ -5,11 +5,9 @@ const HeaderButton = (props) => {
         <div>
             <button
                 className="
-                    bg-blue-600
-                    text-white
-                    active:bg-purple-600
+                    bg-blue-500 dark:bg-blue-500
+                    text-white dark:text-gray-800
                     font-bold
-                    uppercase
                     text-base
                     px-8
                     py-3
@@ -22,7 +20,7 @@ const HeaderButton = (props) => {
                     mb-1
                     ease-linear
                     transition-all
-                    duration-150
+                    duration-500
                     mx-3
                 "
                 type="button"

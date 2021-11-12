@@ -77,7 +77,7 @@ export default function IndexDropdown() {
                     } group flex rounded-md items-center duration-300 font-bold  w-full px-2 py-2`}
                   >
                     
-                    Keanggotaan
+                    Member
                   </button>
                 )}
               </Menu.Item>

@@ -3,9 +3,10 @@ import IndexNavbar from "../components/navbars/IndexNavbar";
 import IndexHeader from "../components/headers/IndexHeader";
 import Teams from "../components/Teams";
 
+
 const Index = () => {
     return (
-        <div>
+        <div className="transition duration-500">
             <IndexNavbar />
             <IndexHeader />
             <Teams />

@@ -4,7 +4,7 @@ const TeamsCard = (props) => {
     return (
         <div>
 
-            <div className="bg-white items-center justify-between w-64 mx-5 rounded-xl pb-3" width="350px">
+            <div className="items-center justify-between w-64 mx-5 rounded-xl pb-3" width="350px">
                 <img
                     src="https://mdbootstrap.com/img/new/standard/city/031.jpg"
                     className="rounded-xl mb-4"
@@ -14,9 +14,9 @@ const TeamsCard = (props) => {
                 />
 
                 <div className="text-center">
-                    <h5 className="text-xl font-semibold my-10">{props.name}</h5>
+                    <h5 className="text-xl font-semibold my-10 dark:text-white">{props.name}</h5>
 
-                    <p className="my-4 mx-3">
+                    <p className="my-4 mx-3 text text-gray-700 dark:text-gray-300">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sequi
                     tenetur, voluptatibus harum consequuntur alias quaerat excepturi
                     temporibus nisi commodi, ex, ratione quae soluta! Saepe alias dolores
