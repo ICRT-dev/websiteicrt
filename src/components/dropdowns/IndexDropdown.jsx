@@ -36,19 +36,8 @@ export default function IndexDropdown() {
                   <a href="#team"
                     className={`${
                       active ? 'bg-violet-500 text-blue-500' : 'text-gray-700'
-                    } group flex rounded-md items-center duration-300 font-bold  w-full px-2 py-2`}
+                    } group flex rounded-md items-center transition-all duration-300 font-bold  w-full px-2 py-2`}
                   >
-                    {/* {active ? (
-                      <EditActiveIcon
-                        className="w-5 h-5 mr-2"
-                        aria-hidden="true"
-                      />
-                    ) : (
-                      <EditInactiveIcon
-                        className="w-5 h-5 mr-2"
-                        aria-hidden="true"
-                      />
-                    )} */}
                     Team
                   </a>
                 )}
@@ -57,28 +46,28 @@ export default function IndexDropdown() {
             <div className="px-1 py-1">
               <Menu.Item>
                 {({ active }) => (
-                  <button
+                  <a href="#structure"
                     className={`${
                       active ? 'bg-violet-500 text-blue-500' : 'text-gray-700'
                     } group flex rounded-md items-center duration-300 font-bold  w-full px-2 py-2`}
                   >
                     
                     Structure
-                  </button>
+                  </a>
                 )}
               </Menu.Item>
             </div>
             <div className="px-1 py-1">
               <Menu.Item>
                 {({ active }) => (
-                  <button
+                  <a href="#member"
                     className={`${
                       active ? 'bg-violet-500 text-blue-500' : 'text-gray-700'
                     } group flex rounded-md items-center duration-300 font-bold  w-full px-2 py-2`}
                   >
                     
                     Member
-                  </button>
+                  </a>
                 )}
               </Menu.Item>
             </div>

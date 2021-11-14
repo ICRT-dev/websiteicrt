@@ -18,9 +18,9 @@ const HeaderButton = (props) => {
                     focus:outline-none
                     mr-1
                     mb-1
-                    ease-linear
-                    transition-all
-                    duration-500
+                    ease-out
+                    transition
+                    duration-300
                     mx-3
                 "
                 type="button"
