@@ -6,7 +6,7 @@ import Mode from "../Mode";
 const IndexNavbar = () => {
     const [colorTheme, setTheme] = Mode();
     return (
-        <div className="w-full transition duration-500">
+        <div className="fixed z-50 w-full transition duration-500">
             <nav className="bg-white shadow dark:bg-gray-800 duration-500">
                 <div className="container px-6 mx-auto md:flex md:justify-between md:items-center">
                     <div className="flex items-center justify-between">

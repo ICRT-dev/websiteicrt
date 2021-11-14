@@ -6,7 +6,7 @@ const IndexHeader = () => {
     return (
         <div className='bg-gradient-to-l from-blue-400 to-blue-200 dark:bg-gradient-to-l dark:from-blue-500 dark:to-blue-300  transition-color duration-500'>
 
-            <div className="flex flex-row mx-16 py-10 items-center transition duration-500">
+            <div className="flex flex-row mx-16 py-20 items-center transition duration-500">
                 <div className="flex flex-col w-2/3">
                     <div className="flex text-5xl mb-3">
                         <h1 className="inline font-bold text-black">Ikmi Cirebon </h1>
