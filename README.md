@@ -1,3 +1,5 @@
 # USAGE
-```npm install``` Install required packages
-```npm run start``` start devserver
+<ul>
+<li> <code>npm install</code> Install required packages</li>
+<li> <code>npm run start</code> start devserver</li>
+</ul>
